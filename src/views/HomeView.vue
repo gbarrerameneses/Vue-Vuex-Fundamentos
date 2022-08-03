@@ -3,8 +3,8 @@
     <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
     <h1 
     :style="colorContador">{{ titulo }}: {{ contador }}</h1>
-    <button @click="incrementar">Aumentar</button>
-    <BtnDisminuir />
+    <!-- <button @click="incrementar">Aumentar</button>
+    <BtnDisminuir /> -->
     <hr>
     <BotonAccion :estado="true" />
     <BotonAccion :estado="false" />

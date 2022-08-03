@@ -1,6 +1,6 @@
 <template>
   <button 
-    @click="accionBoton({estado: estado, numero: 15})">
+    @click="accionBoton({estado: estado, numero: 10})">
     {{ textoBoton }}
   </button>
 </template>
